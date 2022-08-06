@@ -17,7 +17,7 @@ const Navbar = () => {
     const sidebar = document.querySelector(".sidebar");
     sidebar.style.display = sidebarVisible ? "none" : "block";
     const menuIcon = document.querySelector(".wrapper .menu .icon");
-    menuIcon.style.left = sidebarVisible ? "2%" : "12%";
+    menuIcon.style.left = "2%";
     setSidebarVisible(!sidebarVisible);
   };
 

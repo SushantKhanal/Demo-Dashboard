@@ -11,11 +11,7 @@ const Sidebar = () => {
   return (
     <>
       <div className="sidebar">
-        <div className="top">
-          <Link to="/" style={{ textDecoration: "none" }}>
-            <span className="logo">ImaanTech</span>
-          </Link>
-        </div>
+        <div className="top"></div>
         <hr />
         <div className="center">
           <ul>

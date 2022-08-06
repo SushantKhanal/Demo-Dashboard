@@ -1,0 +1,187 @@
+$basered: #f5335c;
+$colorCellWidth: calc(4 / 100 * 100vw);
+
+.text-center {
+  text-align: center !important;
+}
+
+.product-score-card {
+  margin-top: 20px;
+
+  .title {
+    height: 24px;
+    span.founder,
+    span.score {
+      color: #000000;
+      font-family: Rubik;
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+
+    span.score {
+      color: #8e9095;
+    }
+  }
+
+  .product-score {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .main-col {
+      display: flex;
+      align-items: center;
+    }
+
+    .rate-cont {
+      display: flex;
+    }
+
+    .rate-min {
+      padding-right: 20px;
+    }
+
+    .rate-max {
+      padding-left: 15px;
+    }
+  }
+
+  .rate-ind {
+    display: block;
+    position: relative;
+    width: $colorCellWidth;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+
+  .rate-ind div {
+    width: 95%;
+  }
+
+  .rate-ind span {
+    display: block;
+    height: 24px;
+    border-radius: 10px;
+  }
+
+  .rate-ind.ind1 {
+    span {
+      background: #f5335c;
+    }
+    &.active div {
+      background: #fcc5d1;
+    }
+  }
+
+  .rate-ind.ind2 {
+    span {
+      background: #ffc0ae;
+    }
+    &.active div {
+      background: #ffdfd6;
+    }
+  }
+
+  .rate-ind.ind3 {
+    span {
+      background: #ffea99;
+    }
+    &.active div {
+      background: #fef4cc;
+    }
+  }
+
+  .rate-ind.ind4 {
+    span {
+      background: #76c70f;
+      opacity: 0.4;
+    }
+    &.active div {
+      background-color: #c9e99f;
+    }
+  }
+
+  .rate-ind.ind5 {
+    span {
+      background: #9ddfbf;
+    }
+    &.active div {
+      background: #ceefdf;
+    }
+  }
+
+  .rate-ind.ind6 {
+    span {
+      background: #a4cfb9;
+    }
+    &.active div {
+      background: #d1e6dc;
+    }
+  }
+
+  .rate-ind.ind7 {
+    span {
+      background: #9bc0b2;
+    }
+    &.active div {
+      background: #ccdfd8;
+    }
+  }
+
+  .rate-ind.ind8 {
+    span {
+      background: #99afa6;
+    }
+    &.active div {
+      background: #cbd7d2;
+    }
+  }
+
+  .rate-ind.ind9 {
+    span {
+      background: #99a5a0;
+    }
+    &.active div {
+      background: #cbd2cf;
+    }
+  }
+
+  .rate-ind.active {
+    bottom: 3px;
+  }
+
+  .rate-ind.active,
+  .rate-ind.active div,
+  .rate-ind.active span {
+    height: 32px;
+    border-radius: 10px;
+    margin-top: 0px !important;
+  }
+
+  .rate-ind div {
+    overflow: hidden;
+  }
+
+  h4 {
+    margin-top: 10px !important;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    &.profit-score {
+      height: 18px;
+      color: #000000;
+      font-family: Rubik;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-left: calc(
+        2.15vw + $colorCellWidth * 1
+      ); //multiply by num of cells before the active cell
+      margin-bottom: 10px;
+    }
+  }
+}

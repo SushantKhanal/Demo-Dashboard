@@ -1,10 +1,7 @@
 import "./navbar.scss";
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import FullscreenExitOutlinedIcon from "@mui/icons-material/FullscreenExitOutlined";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
-import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 import { DarkModeContext } from "../../context/darkModeContext";
 import { useContext, useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -18,6 +15,10 @@ const Navbar = () => {
     sidebar.style.display = sidebarVisible ? "none" : "block";
     const menuIcon = document.querySelector(".wrapper .menu .icon");
     menuIcon.style.left = "2%";
+    const homeContainer = document.querySelector(".homeContainer");
+    homeContainer.maxWidth = !sidebarVisible
+      ? "85vw!important"
+      : "100vw!important";
     setSidebarVisible(!sidebarVisible);
   };
 
@@ -27,10 +28,6 @@ const Navbar = () => {
         <div className="menu">
           <MenuIcon className="icon" onClick={() => sidebarToggleHandler()} />
         </div>
-        {/* <div className="search">
-          <input type="text" placeholder="Search..." />
-          <SearchOutlinedIcon />
-        </div> */}
         <div className="items">
           <div className="item">
             <DarkModeOutlinedIcon
@@ -38,9 +35,6 @@ const Navbar = () => {
               onClick={() => dispatch({ type: "TOGGLE" })}
             />
           </div>
-          {/* <div className="item">
-            <FullscreenExitOutlinedIcon className="icon" />
-          </div> */}
           <div className="item">
             <NotificationsNoneOutlinedIcon className="icon" />
             <div className="counter">1</div>
@@ -48,16 +42,6 @@ const Navbar = () => {
           <div className="item">
             <ChatBubbleOutlineOutlinedIcon className="icon" />
             <div className="counter">2</div>
-          </div>
-          {/* <div className="item">
-            <ListOutlinedIcon className="icon" />
-          </div> */}
-          <div className="item">
-            <img
-              src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-              alt=""
-              className="avatar"
-            />
           </div>
         </div>
       </div>

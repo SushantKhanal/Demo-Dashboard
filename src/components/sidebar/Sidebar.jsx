@@ -1,17 +1,23 @@
 import "./sidebar.scss";
 import { Link } from "react-router-dom";
-import { DarkModeContext } from "../../context/darkModeContext";
-import { Fragment, useContext, useState } from "react";
+import { Fragment, useState } from "react";
 import { sidebarNavs } from "./navData";
 
 const Sidebar = () => {
-  const { dispatch } = useContext(DarkModeContext);
   const [currentElement, setCurrentElement] = useState("");
 
   return (
     <>
       <div className="sidebar">
-        <div className="top"></div>
+        <div className="top">
+          <div className="pp">
+            <img
+              src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              alt=""
+              className="avatar"
+            />
+          </div>
+        </div>
         <hr />
         <div className="center">
           <ul>
@@ -42,16 +48,6 @@ const Sidebar = () => {
               );
             })}
           </ul>
-        </div>
-        <div className="bottom">
-          <div
-            className="colorOption"
-            onClick={() => dispatch({ type: "LIGHT" })}
-          ></div>
-          <div
-            className="colorOption"
-            onClick={() => dispatch({ type: "DARK" })}
-          ></div>
         </div>
       </div>
     </>

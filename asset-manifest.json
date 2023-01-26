@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38dd1136.css",
+    "main.js": "/static/js/main.c4736f3a.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/shopper-home-page.png": "/static/media/shopper-home-page.6454ba78ae58b506cfd4.png",
+    "static/media/ERP-modal.png": "/static/media/ERP-modal.44ea41b47299500965e2.png",
+    "static/media/able-founder-view.png": "/static/media/able-founder-view.f22a101f79d52b5fbb09.png",
+    "static/media/ERP-machinery.png": "/static/media/ERP-machinery.1fc18e0702918b434057.png",
+    "static/media/about_sushant.jpg": "/static/media/about_sushant.a8b25a1978cf3afc3a3d.jpg",
+    "static/media/sign-up.png": "/static/media/sign-up.8e1d84d03ec760912747.png",
+    "static/media/able-pre-login-page.png": "/static/media/able-pre-login-page.aba1070c79ab4280ca97.png",
+    "static/media/video-chat-screen.png": "/static/media/video-chat-screen.bad0ba5f019973db7eab.png",
+    "static/media/able-forum.png": "/static/media/able-forum.bc2fd6173a829a06b392.png",
+    "static/media/ERP-search-results.png": "/static/media/ERP-search-results.5f19a67720f77bd1f5bf.png",
+    "static/media/ERP-Dashboard.png": "/static/media/ERP-Dashboard.1fb8294e770f3cbce506.png",
+    "static/media/testimonial3.jpg": "/static/media/testimonial3.86b3099e43ed6a7e559f.jpg",
+    "static/media/start-peeq-reserve.png": "/static/media/start-peeq-reserve.3ade1f3d45e1bbca422a.png",
+    "static/media/able-home-page.png": "/static/media/able-home-page.f5613f06954d57eb4d69.png",
+    "static/media/chat-screen.png": "/static/media/chat-screen.40523f797d71ba0b2a69.png",
+    "static/media/payment-screen.png": "/static/media/payment-screen.ce1cf346e00e80797b6c.png",
+    "static/media/ERP-search-overlay.png": "/static/media/ERP-search-overlay.9a89e931de8cabc68f2e.png",
+    "static/media/sushantPic.png": "/static/media/sushantPic.a77e4653535994f2c6f1.png",
+    "static/media/project_img3.png": "/static/media/project_img3.16da11ee5399230d0be3.png",
+    "static/media/admin-dashboard.png": "/static/media/admin-dashboard.ab4608f7305ff9006134.png",
+    "static/media/testimonial1.jpg": "/static/media/testimonial1.79db2dffa11b21d66126.jpg",
+    "static/media/portfolio3.jpg": "/static/media/portfolio3.f0e7fa8280d9df023e12.jpg",
+    "static/media/portfolio1.jpg": "/static/media/portfolio1.b100f823e1d9a2e55cca.jpg",
+    "index.html": "/index.html",
+    "main.38dd1136.css.map": "/static/css/main.38dd1136.css.map",
+    "main.c4736f3a.js.map": "/static/js/main.c4736f3a.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38dd1136.css",
+    "static/js/main.c4736f3a.js"
+  ]
+}

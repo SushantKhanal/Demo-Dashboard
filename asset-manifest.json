@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.38dd1136.css",
-    "main.js": "/static/js/main.c4736f3a.js",
+    "main.js": "/static/js/main.60a06c60.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/shopper-home-page.png": "/static/media/shopper-home-page.6454ba78ae58b506cfd4.png",
     "static/media/ERP-modal.png": "/static/media/ERP-modal.44ea41b47299500965e2.png",
@@ -22,17 +22,18 @@
     "static/media/ERP-search-overlay.png": "/static/media/ERP-search-overlay.9a89e931de8cabc68f2e.png",
     "static/media/sushantPic.png": "/static/media/sushantPic.a77e4653535994f2c6f1.png",
     "static/media/project_img3.png": "/static/media/project_img3.16da11ee5399230d0be3.png",
+    "static/media/Resume.pdf": "/static/media/Resume.1b420c9d7175eb3c4bb4.pdf",
     "static/media/admin-dashboard.png": "/static/media/admin-dashboard.ab4608f7305ff9006134.png",
     "static/media/testimonial1.jpg": "/static/media/testimonial1.79db2dffa11b21d66126.jpg",
     "static/media/portfolio3.jpg": "/static/media/portfolio3.f0e7fa8280d9df023e12.jpg",
     "static/media/portfolio1.jpg": "/static/media/portfolio1.b100f823e1d9a2e55cca.jpg",
     "index.html": "/index.html",
     "main.38dd1136.css.map": "/static/css/main.38dd1136.css.map",
-    "main.c4736f3a.js.map": "/static/js/main.c4736f3a.js.map",
+    "main.60a06c60.js.map": "/static/js/main.60a06c60.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.38dd1136.css",
-    "static/js/main.c4736f3a.js"
+    "static/js/main.60a06c60.js"
   ]
 }

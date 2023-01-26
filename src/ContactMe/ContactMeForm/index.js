@@ -2,11 +2,11 @@ import "./ContactMeForm.css";
 import React, { useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-const {
-  REACT_APP_EMAIL_JS_SERVICE_ID,
-  REACT_APP_EMAIL_JS_TEMPLATE_ID,
-  REACT_APP_EMAIL_JS_PUBLIC_KEY,
-} = process.env;
+// const {
+//   REACT_APP_EMAIL_JS_SERVICE_ID,
+//   REACT_APP_EMAIL_JS_TEMPLATE_ID,
+//   REACT_APP_EMAIL_JS_PUBLIC_KEY,
+// } = process.env;
 
 function ContactMeForm() {
   useEffect(() => {});
@@ -16,10 +16,10 @@ function ContactMeForm() {
     e.preventDefault();
     emailjs
       .sendForm(
-        REACT_APP_EMAIL_JS_SERVICE_ID,
-        REACT_APP_EMAIL_JS_TEMPLATE_ID,
+        "service_iipfl5f",
+        "template_z419n2g",
         form.current,
-        REACT_APP_EMAIL_JS_PUBLIC_KEY
+        "fd423gW547Y5FouRO"
       )
       .then(
         (result) => {

@@ -27,7 +27,7 @@ function Qualifications() {
     <div>
       {/* <!--==================== QUALIFICATION ====================--> */}
       <section className="qualification section">
-        <h2 className="section__title">My personal journey</h2>
+        <h2 className="section__title">Qualifications</h2>
         <span className="section__subtitle"></span>
 
         <div className="qualification__container container">

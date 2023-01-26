@@ -8,7 +8,7 @@ function Testimonials() {
   return (
     <section className="testimonial section">
       <h2 className="section__title">Testimonial</h2>
-      <span className="section__subtitle">/Reviews</span>
+      <span className="section__subtitle"></span>
 
       <div className="testimonial__container container swiper-container">
         <div className="">

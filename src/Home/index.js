@@ -69,8 +69,8 @@ function Home() {
               <h1 className="home__title">Hi, I'm Sushant</h1>
               <h3 className="home__subtitle">Software developer</h3>
               <p className="home__description">
-                High level experience in web design, web development, and
-                general programming, producing quality work.
+                High level experience in mobile development, web development,
+                and general programming, producing great work.
               </p>
               <a href="#contact" className="button button--flex">
                 Contact Me <i className="uil uil-message button__icon"></i>

@@ -6,10 +6,13 @@ import SlideButtons from "./SlideButtons";
 import PortfolioModal from "./PortfolioModal";
 import PortfolioSlide from "./PortfolioSlide";
 import { MODAL_DATA, SLIDE_DATA } from "./PortfolioData";
+import SwiperCore, { Autoplay } from "swiper";
 
 function Portfolio() {
   const [slideData, setSlideData] = useState(SLIDE_DATA);
   const [modalData, setModalData] = useState(null);
+
+  SwiperCore.use([Autoplay]);
 
   useEffect(() => {
     const closePortfolioModalButtons = document.querySelectorAll(
@@ -44,7 +47,7 @@ function Portfolio() {
           slidesPerView={1}
           onSlideChange={() => {}}
           onSwiper={(swiper) => {}}
-          autoplay={true}
+          autoplay={{ delay: 3000 }}
         >
           {slideData.map((item) => (
             <SwiperSlide key={item.id}>
